@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Idade</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="image/icon.ico" type="image/x-icon">
+</head> 
+<body>
+    <header>
+        <h1>Verificador de Idade</h1>
+    </header>
+    <section>
+        <div>
+            <p>Exercicio do CursoemVideo para verificar idade no ano presente conforme for o ano de nascimento</p>
+            <br>
+        </div>
+        <div>
+            <p>Ano de Nascimento:
+                <input type="number" name="txtano" id="txtano" min="0">
+            </p>
+            <p>Sexo:
+                <input type="radio" name="radsex" id="mas" checked>
+                <label for="mas">Masculino</label>
+                <input type="radio" name="radsex" id="fem">
+                <label for="fem">Feminino</label>
+                <input type="button" value="Verificar" onclick="verificar()">
+            </p>
+        </div>
+        <div id="res">
+            <p>Preencha os dados acima para ver o resultado!</p>
+        </div>
+    </section>
+    <footer>
+        <p>&copy; Copyright 2022 - Todos os Direitos Reservados | <a href="https://www.github.com/guilhermefrontdev" target="_blank">Guilherme Ribeiro 🔗</a>. </p>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
