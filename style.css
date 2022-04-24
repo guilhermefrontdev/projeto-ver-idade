@@ -20,7 +20,7 @@ section {
     border: 5px solid black;
     padding: 15px;
     max-width: 400px;
-    height: 400px;
+    height: 430px;
     margin: auto;
     box-shadow: 17px 17px 5px rgba(0, 0, 0, 0.507);
     margin-top: 40px;
@@ -29,7 +29,7 @@ section {
 footer {
     text-align: center;
     color: white;
-    margin-top: 80px;
+    margin-top: 50px;
 }
 
 footer > p > a {
